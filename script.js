@@ -608,17 +608,3 @@ if ('serviceWorker' in navigator) {
     console.log('Service Worker support detected');
   });
 }
-// Loader functionality
-document.addEventListener('DOMContentLoaded', () => {
-  const loader = document.getElementById('loader');
-  // Hide loader after page load (with a minimum delay for visibility)
-  window.addEventListener('load', () => {
-    setTimeout(() => {
-      loader.classList.add('hidden');
-      // Optionally remove loader from DOM after transition
-      setTimeout(() => {
-        loader.style.display = 'none';
-      }, 500); // Match transition duration
-    }, 1000); // Minimum loader display time (adjust as needed)
-  });
-});
