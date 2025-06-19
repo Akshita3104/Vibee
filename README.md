@@ -1,6 +1,8 @@
-🚀 **Project Overview:** This is a responsive, feature-rich website created for the Frontend Battle competition, showcasing premium digital solutions. The project leverages HTML, CSS, and JavaScript to deliver a pixel-perfect, lavender-themed design with smooth animations, a custom loader, and an exceptional user experience.
+🚀 **Project Overview:** 
+This is a responsive, feature-rich website created for the Frontend Battle competition, showcasing premium digital solutions. The project leverages HTML, CSS, and JavaScript to deliver a pixel-perfect, lavender-themed design with smooth animations, a custom loader, and an exceptional user experience.
 
 ✨ **Features Implemented**
+
 Homepage - Hero section with floating card and call-to-action buttons.
 Services Section - Interactive cards with feature tags and fade-up animations.
 Carousel Switch - Project showcase with navigation controls and indicators.
@@ -12,6 +14,7 @@ Ripple Effect - Mouse interaction feedback on buttons.
 Scroll-to-Top - Button for smooth navigation to the top.
 
 **Additional Enhancements**
+
 Responsive Design - Mobile-first layout with fluid breakpoints.
 Smooth Scrolling - Enhanced navigation to section anchors.
 Scroll Animations - Elements reveal on scroll via data-aos attributes.
@@ -19,12 +22,14 @@ Accessibility Features - ARIA labels, keyboard navigation, focus indicators.
 Performance Optimized - Efficient CSS and JavaScript for fast rendering.
 
 **🛠 Technologies Used**
+
 HTML5 - Semantic markup with accessibility considerations.
 CSS3 - Tailwind CSS with custom lavender theme, Grid, Flexbox, and animations.
 JavaScript ES6+ - Modern syntax for interactivity and animations.
 Web APIs - Local Storage (for theme persistence), DOM manipulation.
 
 **🚀 Getting Started**
+
 Installation & Setup
 Clone the repository
 git clone https://github.com/yourusername/vibeee-frontend-battle.git
@@ -78,6 +83,6 @@ Responsive Design: Guided breakpoint and media query setup.
 Documentation: Assisted in structuring README with clear sections.
 
 🌐 Live Demo
-Deployed URL: https://your-vibeee-frontend-battle.netlify.app (Replace with actual URL)
+Deployed URL: https://moonlit-llama-cc213a.netlify.app/
 
 Built with 💜 by Akshita Shetty
