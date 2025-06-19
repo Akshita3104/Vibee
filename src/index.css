@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 260 60% 95%; /* Soft lavender background */
+    --foreground: 260 30% 20%; /* Darker purple for text */
+    --card: 260 50% 90%; /* Slightly deeper lavender for cards */
+    --card-foreground: 260 30% 20%; /* Same as foreground for contrast */
+    --popover: 260 60% 95%; /* Match background for popovers */
+    --popover-foreground: 260 30% 20%; /* Consistent text color */
+    --primary: 270 70% 60%; /* Vibrant lavender for primary buttons */
+    --primary-foreground: 0 0% 98%; /* Near-white for button text */
+    --secondary: 250 40% 85%; /* Pale lavender for secondary elements */
+    --secondary-foreground: 260 30% 20%; /* Darker purple for text */
+    --muted: 250 30% 90%; /* Very light lavender for muted elements */
+    --muted-foreground: 260 20% 40%; /* Muted purple for subtle text */
+    --accent: 265 50% 80%; /* Soft lavender accent */
+    --accent-foreground: 260 30% 20%; /* Consistent text color */
+    --destructive: 350 80% 60%; /* Soft pinkish-red for errors */
+    --destructive-foreground: 0 0% 98%; /* Near-white for contrast */
+    --border: 260 40% 85%; /* Light lavender border */
+    --input: 260 40% 85%; /* Same as border for inputs */
+    --ring: 270 70% 60%; /* Primary lavender for focus rings */
+    --radius: 0.5rem;
+    --sidebar-background: 260 50% 92%; /* Slightly darker lavender sidebar */
+    --sidebar-foreground: 260 30% 20%; /* Darker purple for sidebar text */
+    --sidebar-primary: 270 70% 60%; /* Same as primary */
+    --sidebar-primary-foreground: 0 0% 98%; /* Near-white */
+    --sidebar-accent: 250 40% 85%; /* Secondary lavender */
+    --sidebar-accent-foreground: 260 30% 20%; /* Darker purple */
+    --sidebar-border: 260 40% 85%; /* Same as border */
+    --sidebar-ring: 270 70% 60%; /* Primary lavender */
+  }
+
+  .dark {
+    --background: 260 50% 20%; /* Deep lavender for dark mode background */
+    --foreground: 260 40% 95%; /* Light lavender for text */
+    --card: 260 50% 25%; /* Slightly lighter lavender for cards */
+    --card-foreground: 260 40% 95%; /* Same as foreground */
+    --popover: 260 50% 20%; /* Match dark background */
+    --popover-foreground: 260 40% 95%; /* Light lavender text */
+    --primary: 270 70% 70%; /* Brighter lavender for buttons */
+    --primary-foreground: 260 50% 20%; /* Dark lavender for button text */
+    --secondary: 260 40% 30%; /* Muted lavender for secondary */
+    --secondary-foreground: 260 40% 95%; /* Light lavender text */
+    --muted: 260 40% 30%; /* Muted lavender for dark muted elements */
+    --muted-foreground: 260 30% 70%; /* Mid-tone lavender for subtle text */
+    --accent: 265 50% 40%; /* Mid-tone lavender accent */
+    --accent-foreground: 260 40% 95%; /* Light lavender text */
+    --destructive: 350 70% 40%; /* Darker pinkish-red for errors */
+    --destructive-foreground: 260 40% 95%; /* Light lavender text */
+    --border: 260 40% 35%; /* Darker lavender border */
+    --input: 260 40% 35%; /* Same as border */
+    --ring: 270 70% 70%; /* Brighter lavender for focus */
+    --sidebar-background: 260 50% 15%; /* Very dark lavender sidebar */
+    --sidebar-foreground: 260 40% 95%; /* Light lavender text */
+    --sidebar-primary: 270 70% 70%; /* Same as primary */
+    --sidebar-primary-foreground: 260 50% 20%; /* Dark lavender */
+    --sidebar-accent: 260 40% 30%; /* Muted lavender */
+    --sidebar-accent-foreground: 260 40% 95%; /* Light lavender */
+    --sidebar-border: 260 40% 35%; /* Darker lavender */
+    --sidebar-ring: 270 70% 70%; /* Brighter lavender */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
